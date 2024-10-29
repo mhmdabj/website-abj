@@ -1,0 +1,30 @@
+:root {
+    /* Colors */
+    --color-purple: #895197;
+    --color-coral: #FF6B6B;
+    --color-green: #99B84A;
+    --color-blue: #1E95E7;
+    --color-orange: #FDB65A;
+    --color-black: #1F1E25;
+    --color-white: #FFFFFF;
+
+    /* Typography */
+    
+    --font-primary: 'Cascadia Code', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+    --font-size-base: 16px;
+    --font-size-large: 1.25rem;
+    --font-size-small: 0.875rem;
+}
+
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    outline: 2px solid lime;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+}
+

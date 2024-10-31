@@ -8,9 +8,12 @@ module.exports = {
         coral: '#FF6B6B',
         green: '#99B84A',
         blue: '#1E95E7',
-        orange: '#FDB65A',
+        orange: '#F0B65A',
         black: '#1F1E25',
         white: '#FFFFFF',
+        gray: '#2c2c33',
+        gray_text: '#515158',
+        transparent: 'transparent'
       },
     },
   },
